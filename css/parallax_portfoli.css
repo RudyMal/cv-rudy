@@ -1,0 +1,56 @@
+.parallax {
+  position:relative;
+  z-index:1;
+  margin-top: 20px;
+  height:450px;
+  -webkit-box-shadow: inset 0px -6px 5px rgba(50, 50, 50, 0.75);
+-moz-box-shadow: inset 0px -6px 5px rgba(50, 50, 50, 0.75);
+box-shadow: inset 0px -6px 5px rgba(50, 50, 50, 0.75);
+}
+
+#trans1 {
+  background: url('../img/img.jpg') no-repeat fixed;
+  height: 269px;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.txt.right {
+  margin: 150px 100px 0 0;
+  float:right;
+  text-align:right;
+}
+
+.txt.sub {
+  background:#000;
+  background:rgba(0,0,0,0.60);
+  height: 269px;
+  width: 100%;
+  font-size:45px;
+  padding-top: 6%;
+  text-align: center;
+  text-transform: uppercase;
+  color:#ccc;
+  margin: 0px 0px 0px 0px;
+}
+
+@media screen and (max-width: 480px) {
+  .parallax {
+    margin-top: 220px !important;
+    height: 150px !important;
+  }
+
+  .txt.sub {
+    height: 150px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+}
